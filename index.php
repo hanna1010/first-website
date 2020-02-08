@@ -1,4 +1,4 @@
-<?phpsssss
+<?php
 $conn = mysqli_connect("localhost", "root", 'didgkssk2203');
 mysqli_select_db($conn, "opentutorials");
 $result = mysqli_query($conn, "SELECT * FROM topic");
